@@ -42,9 +42,9 @@
         </div>
 
         <div class="content">
-            <h2 class="content-subhead">Overview</h2>
+            <h2 class="content-subhead">Project Management</h2>
             <p>
-                To use this layout, you can just copy paste the HTML, along with the CSS in <a href="/css/layouts/side-menu.css" alt="Side Menu CSS">side-menu.css</a>, and the JavaScript in <a href="/js/ui.js">ui.js</a>. The JS file uses vanilla JavaScript to simply toggle an <code>active</code> class that makes the menu responsive.
+			<a class="pure-button" href="tasks">Tasks</a><a class="pure-button" href="timetracking">Time Tracking</a><a class="pure-button" href="performance">Performance</a>
             </p>
 
             <h2 class="content-subhead">Daily Reminders</h2>
