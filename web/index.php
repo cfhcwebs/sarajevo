@@ -58,7 +58,7 @@
 
             <h2 class="content-subhead">Status</h2>
             <p>
-				Output Sarajevo related status data
+				<?php include 'sqlconnect.php';?>
             </p>
         </div>
     </div>
