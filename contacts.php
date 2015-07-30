@@ -47,8 +47,39 @@
 						<a class="pure-button" href="custsales">Sales</a><a class="pure-button" href="contacts">Customer Contacts</a>
             </p>
 
-            <h2 class="content-subhead"></h2>
+            <h2 class="content-subhead">Add New Contact</h2>
             <p>
+			<form class="pure-form pure-form-aligned">
+    <fieldset>
+        <div class="pure-control-group">
+            <label for="name">Full Name</label>
+            <input id="name" type="text" placeholder="fullname">
+        </div>
+
+        <div class="pure-control-group">
+            <label for="company">Company</label>
+            <input id="company" type="text" placeholder="company">
+        </div>
+
+        <div class="pure-control-group">
+            <label for="email">Email Address</label>
+            <input id="email" type="email" placeholder="Email Address">
+        </div>
+
+        <div class="pure-control-group">
+            <label for="contact">Contact</label>
+            <input id="contact" type="text" placeholder="Contact">
+        </div>
+
+        <div class="pure-controls">
+            <label for="cb" class="pure-checkbox">
+                <input id="cb" type="checkbox"> I've read the terms and conditions
+            </label>
+
+            <button type="submit" class="pure-button pure-button-primary">Submit</button>
+        </div>
+    </fieldset>
+</form>
             </p>
 
             <div class="pure-g">

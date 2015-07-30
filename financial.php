@@ -42,23 +42,26 @@
         </div>
 
         <div class="content">
-            <h2 class="content-subhead">Overview</h2>
+            <h2 class="content-subhead">Financial Accounting</h2>
             <p>
-			<a class="pure-button" href="financial">Financial Accounting</a><a class="pure-button" href="management">Management Accounting</a>
-            </p>
+						<a class="button-xsmall pure-button" href='ledger'>General Ledger</a>
+						<a class="button-xsmall pure-button" href='payables'>Payables</a>
+						<a class="button-xsmall pure-button" href='receivables'>Receivables</a>
+						<a class="button-xsmall pure-button" href='cashmanagement'>Cash Management</a>
+						<a class="button-xsmall pure-button" href='consolidation'>Financial Consolidation</a>	            
+			</p>
 
-            <h2 class="content-subhead">Daily Reminders</h2>
+            <h2 class="content-subhead"></h2>
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </p>
+						
+			</p>
 
             <div class="pure-g">
 
             </div>
 
-            <h2 class="content-subhead">Status</h2>
+            <h2 class="content-subhead"></h2>
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
             </p>
         </div>
     </div>

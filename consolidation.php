@@ -27,7 +27,7 @@
 
     <div id="menu">
         <div class="pure-menu">
-            <a class="pure-menu-heading" href="#">Sarajevo</a>
+            <a class="pure-menu-heading" href="">Sarajevo</a>
 
             <ul class="pure-menu-list">
 				<?php include 'cssmenu.php';?>
@@ -42,23 +42,25 @@
         </div>
 
         <div class="content">
-            <h2 class="content-subhead">Overview</h2>
+            <h2 class="content-subhead">Accounting</h2>
             <p>
-				Probably output some business related data
-				</p>
+						<a class="button-xsmall pure-button" href='ledger'>General Ledger</a>
+						<a class="button-xsmall pure-button" href='payables'>Payables</a>
+						<a class="button-xsmall pure-button" href='receivables'>Receivables</a>
+						<a class="button-xsmall pure-button" href='cashmanagement'>Cash Management</a>
+						<a class="button-xsmall pure-button" href='consolidation'>Financial Consolidation</a>	            </p>
 
-            <h2 class="content-subhead">Daily Reminders</h2>
+            <h2 class="content-subhead"></h2>
             <p>
-			Today: - 
-            </p>
+					
+			</p>
 
             <div class="pure-g">
 
             </div>
 
-            <h2 class="content-subhead">Status</h2>
+            <h2 class="content-subhead">Consolidation</h2>
             <p>
-				Output Sarajevo related status data
             </p>
         </div>
     </div>
