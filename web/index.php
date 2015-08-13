@@ -58,7 +58,9 @@
 
             <h2 class="content-subhead">Status</h2>
             <p>
-				<?php include 'sqlconnect.php';?>
+				Main Core:   <button class="button-success pure-button">Success</button></br>
+				Application:  <button class="button-success pure-button">Success</button></br>
+				Database:    <button class="button-success pure-button">Success</button></br>
             </p>
         </div>
     </div>

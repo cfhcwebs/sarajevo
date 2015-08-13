@@ -89,27 +89,31 @@
 
             <h2 class="content-subhead">Add New Project</h2>
             <p>
-<form action='newproject' method="post" class="pure-form pure-form-aligned">
-    <fieldset>
-        <div class="pure-control-group">
-            <label for="name">Project Name</label>
-            <input id="projectname" type="text" placeholder="">
-        </div>
+<?php
+	$servername = "localhost";
+	$username = "root";
+	$password = "";
+	$dbname = "sarajevo";
 
-        <div class="pure-control-group">
-            <label for="password">Project Description</label>
-            <input id="projectdesc" type="text" placeholder="">
-        </div>
+	// Create connection
+	$conn = new mysqli($servername, $username, $password, $dbname);
+	// Check connection
+	if ($conn->connect_error) {
+		die("Connection failed: " . $conn->connect_error);
+	}
 
-        <div class="pure-control-group">
-            <label for="projectleader">Project Leader</label>
-            <input id="projectleader" type="text" placeholder="">
-        </div>
+	if (isset($_POST["projectname"])) 
+	{
+	  $projectname = $_POST["projectname"];
+	  echo $projectname;
+	  echo " is your project name";
+	} 
+	else {
+	 echo $projectname;
+	}
 
-            <button type="submit" class="pure-button pure-button-primary">Submit</button>
-        </div>
-    </fieldset>
-</form>
+
+?>
 
             </p>
         </div>
