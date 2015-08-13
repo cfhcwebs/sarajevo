@@ -44,51 +44,41 @@
         <div class="content">
             <h2 class="content-subhead">Overview</h2>
             <p>
-				<a class="pure-button" href="inventory">Inventory</a> <a class="pure-button" href="newjoborder">Add New Job</a>
+				<a class="pure-button" href="manufacturing">Overview</a> 
             </p>
 
-            <h2 class="content-subhead">Manufacturing Jobs</h2>
+            <h2 class="content-subhead">Add New Job</h2>
             <p>
-<?php include "sqlconnect.php";?>
-			
-			<?php
-				$sql = "SELECT * FROM joblist";
-				$result = mysqli_query($conn, $sql);
+					<form method="post" action="newjob.php" class="pure-form pure-form-aligned">
+							<fieldset>
+								<div class="pure-control-group">
+									<label for="jobname">Job Name</label>
+									<input name="jobname" type="text" placeholder="">
+								</div>
 
-				echo "
-				<table class='pure-table'>
-					<thead>
-						<tr>
-							<th>Job ID</th>
-							<th>Job Name</th>
-							<th>Description</th>
-							<th>Department</th>
-						</tr>
-					</thead>";
+								<div class="pure-control-group">
+									<label for="jobdesc">Job Description</label>
+									<input name="jobdesc" type="text" placeholder="">
+								</div>
 
-				if (mysqli_num_rows($result) > 0) {
-					// output data of each row
-					while($row = mysqli_fetch_assoc($result)) {
-						echo "<tr>";
-							echo "<td>" . $row["jobID"]. "</td><td>" . $row["jobName"]. "</td><td>" . $row["jobDesc"]. "</td><td>" . $row["jobDept"]. "</td>";
-						echo "</tr>";
-					}
-				} else {
-					echo "0 results";
-				}
+								<div class="pure-control-group">
+									<label for="jobdept">Job Department</label>
+									<input name="jobdept" type="text" placeholder="">
+								</div>
 
+									<button type="submit" class="pure-button pure-button-primary">Add</button>
+								</div>
+							</fieldset>
+					</form>
+								
 
-				echo " </tbody></table>";
-
-				$conn->close();
-			?>
             </p>
 
             <div class="pure-g">
 
             </div>
 
-            <h2 class="content-subhead">Status</h2>
+            <h2 class="content-subhead"></h2>
             <p>
             </p>
         </div>

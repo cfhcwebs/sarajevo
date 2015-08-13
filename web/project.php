@@ -89,21 +89,21 @@
 
             <h2 class="content-subhead">Add New Project</h2>
             <p>
-<form action='newproject' method="post" class="pure-form pure-form-aligned">
+<form action='newproject.php' method="post" class="pure-form pure-form-aligned">
     <fieldset>
         <div class="pure-control-group">
             <label for="name">Project Name</label>
-            <input id="projectname" type="text" placeholder="">
+            <input name="projectName" type="text" placeholder="">
         </div>
 
         <div class="pure-control-group">
             <label for="password">Project Description</label>
-            <input id="projectdesc" type="text" placeholder="">
+            <input name="projectDesc" type="text" placeholder="">
         </div>
 
         <div class="pure-control-group">
             <label for="projectleader">Project Leader</label>
-            <input id="projectleader" type="text" placeholder="">
+            <input name="projectLeader" type="text" placeholder="">
         </div>
 
             <button type="submit" class="pure-button pure-button-primary">Submit</button>
